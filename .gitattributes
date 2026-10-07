@@ -1,0 +1,6 @@
+# Preserve captured bytes and their recorded SHA256 on every platform.
+outputs/** -text
+work/** text eol=lf
+*.png -text
+*.md text eol=lf
+*.yml text eol=lf

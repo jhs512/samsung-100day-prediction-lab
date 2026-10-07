@@ -1,0 +1,14 @@
+{
+  "checked_at_kst": "2026-10-07T13:05:00+09:00",
+  "browser": "Codex in-app browser",
+  "local_url": "http://127.0.0.1:8877/",
+  "story_steps": "all seven visited; next, previous and direct navigation checked",
+  "comparison": {"all_test_cases":184,"periods":[184,60,20],"date_slider":"Home and ArrowRight update detail","graph_click":"selected target date and errors update","baseline_toggle":"line and legend hidden","target_date_alignment":"same target date for actual, learned and baseline"},
+  "latest": {"observation":"2026-10-06","target":"2026-10-07","display_prediction":273030,"display_baseline":273000,"answer":"미수집"},
+  "ten_before": {"observation":"2026-09-17","target":"2026-09-18","prediction":256029,"actual":260000,"model_absolute_error_rounded":3971,"baseline_absolute_error":4000},
+  "random": {"repeated_cases":6,"range":"recent ten eligible observation sessions","input_graph_reset":true,"prediction_before_reveal":true,"answers_hidden_before_reveal":true,"actual_and_error_revealed":true},
+  "csv": {"recent100":"downloaded through browser; pandas exact equality with snapshot checked","full":"downloaded through browser; exact equality checked separately in deployment verification"},
+  "responsive": {"desktop":"1265px screenshot inspected","mobile":"390x844 viewport screenshot inspected, document clientWidth 375 and scrollWidth 375; graph selection works","limitations":"mobile viewport emulation, not physical device testing. In-app browser does not support native CDP touch injection; ordinary click selection verified."},
+  "numerical_verification":"196 Python/JavaScript comparisons; max difference 0 won",
+  "console":"no application errors observed"
+}

@@ -1,0 +1,133 @@
+{
+  "selected": "relative / Lasso alpha=0.001",
+  "recommendation": "relative / Lasso alpha=0.001",
+  "selection_period": "2025",
+  "validation_baseline": {
+    "mae": 1251.0373443983403,
+    "rmse": 1756.5172066038624,
+    "direction_accuracy": 0.05394190871369295,
+    "n": 241
+  },
+  "validation_results": [
+    {
+      "name": "raw / LinearRegression",
+      "representation": "raw",
+      "validation": {
+        "mae": 1320.881138204237,
+        "rmse": 1803.1904214636006,
+        "direction_accuracy": 0.44813278008298757,
+        "n": 241
+      },
+      "nonzero_coefficients": 100,
+      "iterations": null
+    },
+    {
+      "name": "raw / Ridge alpha=1",
+      "representation": "raw",
+      "validation": {
+        "mae": 1311.4735058720473,
+        "rmse": 1794.9922358248805,
+        "direction_accuracy": 0.4605809128630705,
+        "n": 241
+      },
+      "nonzero_coefficients": 100,
+      "iterations": null
+    },
+    {
+      "name": "raw / Ridge alpha=100",
+      "representation": "raw",
+      "validation": {
+        "mae": 1827.1521461418558,
+        "rmse": 2492.940106312432,
+        "direction_accuracy": 0.4730290456431535,
+        "n": 241
+      },
+      "nonzero_coefficients": 100,
+      "iterations": null
+    },
+    {
+      "name": "raw / Lasso alpha=1",
+      "representation": "raw",
+      "validation": {
+        "mae": 1291.758489409276,
+        "rmse": 1779.2837827951944,
+        "direction_accuracy": 0.4605809128630705,
+        "n": 241
+      },
+      "nonzero_coefficients": 76,
+      "iterations": 2565
+    },
+    {
+      "name": "raw / Lasso alpha=100",
+      "representation": "raw",
+      "validation": {
+        "mae": 1296.7263627794082,
+        "rmse": 1815.1365810008108,
+        "direction_accuracy": 0.42738589211618255,
+        "n": 241
+      },
+      "nonzero_coefficients": 2,
+      "iterations": 522
+    },
+    {
+      "name": "relative / LinearRegression",
+      "representation": "relative",
+      "validation": {
+        "mae": 1327.2928431026876,
+        "rmse": 1795.0340828223793,
+        "direction_accuracy": 0.4730290456431535,
+        "n": 241
+      },
+      "nonzero_coefficients": 99,
+      "iterations": null
+    },
+    {
+      "name": "relative / Ridge alpha=1",
+      "representation": "relative",
+      "validation": {
+        "mae": 1321.0347056080432,
+        "rmse": 1791.693876253902,
+        "direction_accuracy": 0.46473029045643155,
+        "n": 241
+      },
+      "nonzero_coefficients": 99,
+      "iterations": null
+    },
+    {
+      "name": "relative / Ridge alpha=100",
+      "representation": "relative",
+      "validation": {
+        "mae": 1270.771341569123,
+        "rmse": 1764.2204602340148,
+        "direction_accuracy": 0.4315352697095436,
+        "n": 241
+      },
+      "nonzero_coefficients": 99,
+      "iterations": null
+    },
+    {
+      "name": "relative / Lasso alpha=1e-05",
+      "representation": "relative",
+      "validation": {
+        "mae": 1314.4977305366315,
+        "rmse": 1784.2125297434138,
+        "direction_accuracy": 0.45643153526970953,
+        "n": 241
+      },
+      "nonzero_coefficients": 86,
+      "iterations": 3576
+    },
+    {
+      "name": "relative / Lasso alpha=0.001",
+      "representation": "relative",
+      "validation": {
+        "mae": 1250.2416361268229,
+        "rmse": 1755.1156286811206,
+        "direction_accuracy": 0.5394190871369294,
+        "n": 241
+      },
+      "nonzero_coefficients": 0,
+      "iterations": 0
+    }
+  ]
+}

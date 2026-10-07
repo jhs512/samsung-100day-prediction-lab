@@ -1,0 +1,106 @@
+{
+  "pollingInterval": 7000,
+  "datas": [
+    {
+      "itemCode": "005930",
+      "stockName": "삼성전자",
+      "stockExchangeType": {
+        "code": "KS",
+        "zoneId": "Asia/Seoul",
+        "nationType": "KOR",
+        "delayTime": 0,
+        "startTime": "0900",
+        "endTime": "1530",
+        "closePriceSendTime": "1630",
+        "nameKor": "코스피",
+        "nameEng": "KOSPI",
+        "nationCode": "KOR",
+        "nationName": "대한민국",
+        "stockType": "domestic",
+        "name": "KOSPI"
+      },
+      "closePrice": "272,750",
+      "compareToPreviousClosePrice": "750",
+      "compareToPreviousPrice": {
+        "code": "2",
+        "text": "상승",
+        "name": "RISING"
+      },
+      "fluctuationsRatio": "0.28",
+      "tradeStopType": {
+        "code": "1",
+        "text": "운영.Trading",
+        "name": "TRADING"
+      },
+      "tradableStatus": "tradable",
+      "tradableStatusCode": "ok",
+      "tradableStatusUpdatedAt": "2026-10-07T08:01:46.249+09:00",
+      "openPrice": "269,500",
+      "highPrice": "279,500",
+      "lowPrice": "268,500",
+      "accumulatedTradingVolume": "9,611,417",
+      "accumulatedTradingValue": "2조 6,385억",
+      "marketStatus": "OPEN",
+      "marketStatusDetailType": "open",
+      "localTradedAt": "2026-10-07T12:58:36.538071+09:00",
+      "overMarketPriceInfo": {
+        "tradingSessionType": "REGULAR_MARKET",
+        "overMarketStatus": "OPEN",
+        "overPrice": "272,750",
+        "openPrice": "272,000",
+        "highPrice": "279,500",
+        "lowPrice": "268,000",
+        "compareToPreviousPrice": {
+          "code": "2",
+          "text": "상승",
+          "name": "RISING"
+        },
+        "compareToPreviousClosePrice": "750",
+        "fluctuationsRatio": "0.28",
+        "localTradedAt": "2026-10-07T12:58:36.538089+09:00",
+        "tradeStopType": {
+          "code": "1",
+          "text": "운영.Trading",
+          "name": "TRADING"
+        },
+        "tradableStatus": "tradable",
+        "tradableStatusCode": "ok",
+        "tradableStatusUpdatedAt": "2026-10-07T07:10:13.364+09:00",
+        "accumulatedTradingVolume": "5,560,189",
+        "accumulatedTradingValue": "1조 5,232억",
+        "accumulatedTradingVolumeRaw": "5560189",
+        "accumulatedTradingValueRaw": "1523180000000"
+      },
+      "integratedPriceInfo": {
+        "openPrice": "272,000",
+        "highPrice": "279,500",
+        "lowPrice": "268,000",
+        "accumulatedTradingVolume": "15,171,606",
+        "accumulatedTradingValue": "4조 1,616억",
+        "accumulatedTradingVolumeRaw": "15171606",
+        "accumulatedTradingValueRaw": "4161648000000"
+      },
+      "isinCode": "KR7005930003",
+      "myDataCode": null,
+      "stockEndUrl": null,
+      "symbolCode": "005930",
+      "currencyType": {
+        "code": "KRW",
+        "text": "Republic of Korea won",
+        "name": "KRW"
+      },
+      "marketSessionType": "regularMarket",
+      "marketValueFull": "1,594,572,490,332,000",
+      "closePriceRaw": "272750",
+      "compareToPreviousClosePriceRaw": "750",
+      "fluctuationsRatioRaw": "0.28",
+      "openPriceRaw": "269500",
+      "highPriceRaw": "279500",
+      "lowPriceRaw": "268500",
+      "accumulatedTradingVolumeRaw": "9611417",
+      "accumulatedTradingValueRaw": "2638468000000",
+      "marketValueFullRaw": "1594572490332000"
+    }
+  ],
+  "time": "20261007125836"
+}

@@ -1,0 +1,18 @@
+{
+  "frozen_at_kst": "2026-10-07T12:58:00+09:00",
+  "symbol": "005930",
+  "window": 100,
+  "window_order": "oldest to newest, including observation date",
+  "acquisition_start": "2019-01-01",
+  "train": "observation and target both 2020-01-01 through 2024-12-31",
+  "validation": "observation and target both in 2025",
+  "test": "observation and target both in 2026; completed daily closes only",
+  "representations": ["raw: 100 closes predict next close", "relative: close/latest-1 for all 100 closes, predict next/latest-1"],
+  "estimators": {"LinearRegression": {}, "Ridge": {"alpha": [1, 100]}, "Lasso raw": {"alpha": [1, 100]}, "Lasso relative": {"alpha": [0.00001, 0.001]}},
+  "scaler": "StandardScaler fit on train only for each representation",
+  "selection": "lowest 2025 validation MAE in won among 10 learned candidates; no refit; compare winner to persistence before any test scoring",
+  "deployment": "show learned winner and persistence side by side even if winner loses; recommendation based on validation only",
+  "baseline": "next close equals observation close",
+  "boundary_policy": "exclude row when observation and target cross partition boundary; early input history may precede partition",
+  "random": "random past case selection only, recent 10 observation sessions with known next close"
+}

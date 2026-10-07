@@ -1,0 +1,40 @@
+{
+  "checked_at_kst": "2026-10-07T13:06:40.204808+09:00",
+  "url": "https://jhs512.github.io/samsung-100day-prediction-lab/",
+  "checks": [
+    {
+      "file": "index.html",
+      "status": 200,
+      "bytes": 713756,
+      "sha256": "ffe7c5a85e9c4c107badafe2ee11c94a24245e447de2c4e28c8fb97033fe4878",
+      "exact_match": true
+    },
+    {
+      "file": "samsung_daily.csv",
+      "status": 200,
+      "bytes": 97585,
+      "sha256": "7d2a664501bb6df83c08bf5f77c606b99c5ebe9e46230cfec59c8e0d1dd14b0a",
+      "exact_match": true
+    },
+    {
+      "file": "source.json",
+      "status": 200,
+      "bytes": 11670,
+      "sha256": "2cf96d8366049ca8f008e4b9f2e58ac0124a572f4b25bc36a6c394d19c2f8ef8",
+      "exact_match": true
+    }
+  ],
+  "public_browser_checks": {
+    "latest_prediction": 273030,
+    "baseline": 273000,
+    "future_answer": "미수집",
+    "random_observation": "2026-10-02",
+    "random_target": "2026-10-06",
+    "random_actual": 273000,
+    "random_absolute_error_rounded": 3031,
+    "second_random_observation": "2026-09-28",
+    "second_random_target": "2026-09-29",
+    "console_application_errors": 0
+  },
+  "public_browser_checked_at_kst": "2026-10-07T13:07:01.590958+09:00"
+}
